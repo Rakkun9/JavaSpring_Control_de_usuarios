@@ -44,6 +44,7 @@ public class UsuarioDaoImp implements UsuarioDao{
         if(lista.isEmpty()){
             return null;
         }
+        //all the list has to return a user, can't be two users in arrow
 
         String passwordHashed = lista.get(0).getPassword();
 
